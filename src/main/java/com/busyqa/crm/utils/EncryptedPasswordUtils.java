@@ -5,7 +5,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 public class EncryptedPasswordUtils {
     public static void main(String[] args) {
 
-        String password = "123";
+        String password = "12345678";
         String encryptedPassword = encryptedPassword(password);
 
         System.out.println("Encrypted Password: " + encryptedPassword);
